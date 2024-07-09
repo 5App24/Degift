@@ -1,0 +1,115 @@
+//MAIN PAGE START
+
+var MAIN_BACKGROUND_TYPE = "GRADIENT"; //IMAGE, COLOR, GRADIENT
+
+var MAIN_BACKGROUND = "linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(225,225,225) 100%)";
+
+var GOOGLE_FONT_LINK = "";
+
+var GOOGLE_FONT_FAMILY = "";
+
+//MAIN PAGE END
+
+var GIFTCARD_TOP = "NONE"; //NONE OR CLIP
+var GIFTCARD_SIZE = "TALL"; //SHORT = 70%, MEDIUM = 80%, TALL = 90%
+var GIFTCARD_BORDER = "SMALL"; //NONE = 0, SMALL = 1rem, MEDIUM = 2rem, BIG = 3rem - Giftcard border-radius
+var GIFTCARD_TEXT_COLOR = "white";
+var GIFTCARD_TEXT_BORDER = ""; //OPTIONAL, STROKE AROUND TEXT
+
+var GIFTCARD_BACKGROUND_TYPE = "IMAGE"; //IMAGE, COLOR, GRADIENT
+var GIFTCARD_BACKGROUND = "ITUNESBG.png"; //IMAGE, COLOR, GRADIENT - for image type in image location, color = #111222, gradient = linear-gradient(to bottom, #111222, #888999);
+
+var GIFTCARD_COMPANY = ""; //Company name
+var GIFTCARD_COMPANY_TYPE = ""; //IMAGE or TEXT - choose if you want it to be image or text
+var GIFTCARD_COMPANY_HEADER = "h2";
+var GIFTCARD_COMPANY_WIDTH = "100"; //PERCENTAGE WIDTH OF COMPANY IMAGE
+var GIFTCARD_COMPANY_MARGIN = "0"; //0/1/2/3/4
+
+var GIFTCARD_IMAGE = ""; //Optional, image under Giftcard amount
+var GIFTCARD_IMAGE_SIZE = "100"; //PERCENTAGE SIZE OF IMAGE;
+var GIFTCARD_IMAGE_MARGIN = "0"; //0/1/2/3/4
+
+var GIFTCARD_TITLE = "Free iTunes Giftcard"; //Giftcard amount, has to be string, for example "$100" or "5000 Points"
+var GIFTCARD_TITLE_HEADER = "h2"; //Self-explainatory
+var GIFTCARD_TITLE_MARGIN = "0"; //0/1/2/3/4
+
+var GIFTCARD_TEXT = "Apps, games, music, movies, TV shows, books and more."; //Giftcard description in HTML, you can use any tags you want.
+var GIFTCARD_TEXT_WIDTH = "80"; //PERCENTAGE WIDTH OF TEXT
+var GIFTCARD_TEXT_SIZE = "BIG"; //SMALL/MEDIUM/BIG/HUGE
+var GIFTCARD_TEXT_MARGIN = "2"; //0/1/2/3/4
+var GIFTCARD_TEXT_ALIGN = "center"; //center/justify
+
+//STEP 1 START
+
+var STEP1_GIFTCARD_TITLE = "Get free iTunes Gift Card";
+var STEP1_GIFTCARD_HEADER = "h3"; //Self-explainatory
+
+var STEP1_TEXT_WIDTH = "90";
+var STEP1_TEXT_SIZE = "MEDIUM";
+var STEP1_TEXT_ALIGN = "center";
+var STEP1_TEXT = "Type in your <strong>correct Email address</strong> and click <strong>Continue</strong>. In next step you will have to choose your giftcard amount.";
+
+var STEP1_INPUT_PLACEHOLDER = "Your Email address";
+var STEP1_INPUT_WIDTH = "80";
+var STEP1_INPUT_BORDER_COLOR = "#782e89";
+var STEP1_INPUT_MARGIN = "2"; //0/1/2/3/4
+var STEP1_INPUT_SIZE = "MEDIUM"; //SMALL/MEDIUM/BIG/HUGE
+var STEP1_INPUT_ERROR_ALERT = "Type in your Email address to receive free iTunes Gift Card"; //Error that gets shown when input is empty
+
+var STEP1_BUTTON_TEXT = "Continue";
+var STEP1_BUTTON_WIDTH = "85";
+var STEP1_BUTTON_BG_COLOR = "white";
+var STEP1_BUTTON_BORDER_COLOR = "#782e89";
+var STEP1_BUTTON_COLOR = "black";
+var STEP1_BUTTON_SIZE = "HUGE"; //SMALL/MEDIUM/BIG/HUGE
+
+//END OF STEP 1
+
+//STEP 2 START
+
+var STEP2_GIFTCARD_TITLE = "Choose your iTunes Card amount";
+var STEP2_GIFTCARD_HEADER = "h4"; //Self-explainatory
+
+var STEP2_TEXT_WIDTH = "80";
+var STEP2_TEXT_SIZE = "MEDIUM";
+var STEP2_TEXT_ALIGN = "justify";
+var STEP2_TEXT = "Use <strong>+ and -</strong> buttons to choose your gift card amount. Then click <strong>Continue</strong> button.";
+
+var STEP2_GIFTCARD_AMOUNTS = ["$50 iTunes Giftcard", "$100 iTunes Giftcard", "$200 iTunes Giftcard", "$500 iTunes Giftcard"];
+var STEP2_GIFTCARD_DEFAULT = "$100 iTunes Giftcard";
+var STEP2_GIFTCARD_WIDTH = "85";
+var STEP2_GIFTCARD_MARGIN = "2"; //0/1/2/3/4
+
+var STEP2_BUTTON_TEXT = "Continue";
+var STEP2_BUTTON_WIDTH = "85";
+var STEP2_BUTTON_BG_COLOR = "white";
+var STEP2_BUTTON_BORDER_COLOR = "#782e89";
+var STEP2_BUTTON_COLOR = "black";
+var STEP2_BUTTON_SIZE = "BIG"; //SMALL/MEDIUM/BIG/HUGE
+
+//STEP 2 END
+
+//STEP 3 START
+
+var STEP3_GIFTCARD_TITLE = "Generating your code";
+var STEP3_GIFTCARD_HEADER = "h3"; //Self-explainatory
+
+var STEP3_TEXT_WIDTH = "80";
+var STEP3_TEXT_SIZE = "MEDIUM";
+var STEP3_TEXT_ALIGN = "center";
+var STEP3_TEXT = "Generating your <strong>iTunes Gift Card</strong> code. Please wait until finished.";
+var STEP3_VERIFY_TEXT = "This is your gift card code. Click button below to reveal last 3 characters."
+
+var STEP3_GIFTCARD_MARGIN = "2"; //0/1/2/3/4
+var STEP3_GIFTCARD_INTERVAL = "80"; //Miliseconds interval between showing new code
+var STEP3_GIFTCARD_DURATION = "8"; //How long (in seconds) should it take to generate giftcard code (before showing verify button)
+var STEP3_GIFTCARD_FORMAT = "XXXX-XXXX-XXXX-****"; //X's will be replaced with random chars/numbers
+
+var STEP3_BUTTON_TEXT = "Verify";
+var STEP3_BUTTON_WIDTH = "80";
+var STEP3_BUTTON_BG_COLOR = "white";
+var STEP3_BUTTON_BORDER_COLOR = "#782e89";
+var STEP3_BUTTON_COLOR = "black";
+var STEP3_BUTTON_SIZE = "HUGE"; //SMALL/MEDIUM/BIG/HUGE
+
+//STEP 3 END

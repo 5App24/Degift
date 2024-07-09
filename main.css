@@ -1,0 +1,134 @@
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.GIFTCARD {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#VBU { display: none; }
+
+.STEP1 { display: none; }
+
+.CG {
+  background-color: rgba(0,0,0,0.75);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px rgba(255,255,255, 0.75) solid;
+}
+
+.HUGE { font-size: 1.5rem; }
+.HUGE strong { font-size: 1.65rem; }
+
+.BIG { font-size: 1.35rem; }
+.BIG strong { font-size: 1.45rem; }
+
+.MEDIUM { font-size: 1.15rem; }
+.MEDIUM strong { font-size: 1.25rem; }
+
+.SMALL { font-size: 1rem; }
+.SMALL strong { font-size: 1.1rem; }
+
+input {
+  text-align: center !important;
+}
+
+p {
+  text-align-last: center !important;
+}
+
+.w-35 {
+  width: 35% !important;
+  margin-top: 1rem;
+  position: absolute;
+  top: 0;
+}
+
+.FLICKKK1 {
+  padding-bottom: 11.5%;
+  height: 0;
+  position: relative;
+  width: 40%;
+}
+
+.FLICKKK2 {
+  width: 30%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  mask-image: url(CLIP.png);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: top;
+  -webkit-mask-image: url(CLIP.png);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: top;
+}
+
+button, input { z-index: 1337 !important; }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .UHH { max-width: 75% !important; max-height: 90vh !important; }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .UHH { max-width: 60% !important; max-height: 90vh !important;}
+ }
+
+ @media (min-width: 992px) {
+   .UHH { max-width: 45% !important; max-height: 90vh !important;}
+  }
+
+  @media (min-width: 768px) {
+
+    h6 { font-size: 1.25rem !important;}
+
+    h5 { font-size: 1.5rem !important; }
+
+    h4 { font-size: 1.75rem !important; }
+
+    h3 { font-size: 2rem !important; }
+
+    h2 { font-size: 2.25rem !important; }
+
+    h1 { font-size: 2.75rem !important; }
+
+    .m-1 { margin: 0.75rem !important; }
+    .m-2 { margin: 1.25rem !important; }
+    .m-3 { margin: 1.5rem !important; }
+    .m-4 { margin: 1.75rem !important; }
+
+    .p-1 { padding: 0.75rem !important; }
+    .p-2 { padding: 1.25rem !important; }
+    .p-3 { padding: 1.5rem !important; }
+    .p-4 { padding: 1.75rem !important; }
+
+    .HUGE { font-size: 1.7rem; }
+    .HUGE strong { font-size: 1.8rem; }
+
+    .BIG { font-size: 1.6rem; }
+    .BIG strong { font-size: 1.75rem; }
+
+    .MEDIUM { font-size: 1.4rem; }
+    .MEDIUM strong { font-size: 1.55rem; }
+
+    .SMALL { font-size: 1.25rem; }
+    .SMALL strong { font-size: 1.4rem; }
+
+   }
